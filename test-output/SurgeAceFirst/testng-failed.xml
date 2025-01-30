@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SurgeAceFirst]">
+  <test thread-count="5" name="PositiveFlow(failed)" parallel="methods">
+    <classes>
+      <class name="testrunners.TestRunner_PositiveFlow">
+        <methods>
+          <include name="run_cukes"/>
+        </methods>
+      </class> <!-- testrunners.TestRunner_PositiveFlow -->
+    </classes>
+  </test> <!-- PositiveFlow(failed) -->
+</suite> <!-- Failed suite [SurgeAceFirst] -->

@@ -1,0 +1,21 @@
+package SurgeAceFirst.SurgeAceFirst;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Google {
+    public static void main(String[] args) throws InterruptedException {
+        System.out.println("Hello World!");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\haripriya_b\\Desktop\\SurgeAutomation\\drivers\\msedgedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("www.google.com");
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//textarea[@title='Search']")).sendKeys("Testing methodology");
+        driver.findElement(By.xpath("(//input[@value='Google Search'])[2]")).click();
+        Thread.sleep(2000);
+        if(driver.findElement(By.xpath("//h2")).isDisplayed()) {
+        	System.out.println("Testing Methodologies search is displayed");
+        }
+    }
+}

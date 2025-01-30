@@ -1,0 +1,16 @@
+1734496119551	Rename type 'App'
+1734500343405	Rename package 'TestRunner'
+1734503483933	Rename package 'testrunner'
+1734509493458	Rename type 'Login'
+1734509548606	Delete element
+1734523963064	Rename package 'page'
+1734525449164	Delete element
+1734525611259	Rename resource 'testng.xml'
+1734525709381	Delete element
+1734526284454	Delete element
+1734591807074	Delete element
+1734591907928	Rename resource 'AbstractSteps.txt'
+1734591917896	Rename resource 'ConfigFileReader.txt'
+1734591924725	Rename resource 'CONSTANTS.txt'
+1734591931439	Rename resource 'ExcelReadWrite.txt'
+1734591938221	Rename resource 'Util.txt'

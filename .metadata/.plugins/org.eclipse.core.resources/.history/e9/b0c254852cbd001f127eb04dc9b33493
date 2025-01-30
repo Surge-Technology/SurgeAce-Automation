@@ -1,0 +1,18 @@
+package testrunners;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features="src/test/resources/features/SurgeAceFirst.feature", 
+				 glue="stepdefinition",
+				 plugin= {"pretty",
+						 "json:AutomationReports/json/cucumber.json",
+						 "junit:AutomationReports/xml/junit-results.xml"})
+
+public class TestRunner extends AbstractTestNGCucumberTests {
+
+}

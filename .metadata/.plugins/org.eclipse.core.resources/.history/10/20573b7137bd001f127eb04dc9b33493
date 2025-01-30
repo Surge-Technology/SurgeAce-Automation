@@ -1,0 +1,32 @@
+package testrunners;
+
+import org.junit.runner.RunWith;
+import org.testng.annotations.AfterClass;
+
+import com.cucumber.listener.Reporter;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features="src/test/resources/features/SurgeAceFirst.feature", 
+				 glue="stepdefinition",
+				 plugin= {"pretty",
+						 //"json:AutomationReports/cucumber-reports/json/cucumber.json",
+						 //"junit:AutomationReports/cucumber-reports/xml/cucumber.xml",
+						 //"html:AutomationReports/cucumber-reports/html/cucumber.html",
+						 "com.cucumber.listener.ExtentCucumberFormatter:AutomationReports/cucumber-reports/html/cucumber.html"},
+				 tags= {"@AddInquiry"},
+				 monochrome=true
+)
+
+public class TestRunner extends AbstractTestNGCucumberTests {
+	
+	@AfterClass
+	public static void writeExtentReport() throws Exception
+	{
+		Reporter.loadXMLConfig(System.getProperty("user.dir"));
+	}
+
+}

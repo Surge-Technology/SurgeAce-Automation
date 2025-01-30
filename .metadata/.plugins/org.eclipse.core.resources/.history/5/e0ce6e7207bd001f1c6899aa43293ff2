@@ -1,0 +1,31 @@
+package SurgeAceFirst.SurgeAceFirst;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class Google {
+    public static void main(String[] args) {
+    	try {
+        System.out.println("Hello World!");
+        System.setProperty("webdriver.edge.driver", "C:\\Users\\haripriya_b\\Desktop\\SurgeAutomation\\drivers\\msedgedriver.exe");
+        WebDriver driver = new EdgeDriver();
+        driver.get("https://www.google.com");
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//textarea[@title='Search']")).sendKeys("Testing methodology");
+        driver.findElement(By.xpath("(//div[@role='presentation']//span)[1]")).click();
+        driver.findElement(By.xpath("(//input[@value='Google Search'])[2]")).click();
+        Thread.sleep(2000);
+        if(driver.findElement(By.xpath("//h2")).isDisplayed()) {
+        	System.out.println("Testing Methodologies search is displayed");
+        }
+        else {
+        	System.out.println("Testing Methodologies search is not displayed");
+        }
+    	}
+    	catch(Exception e) {
+    		System.out.println(e);
+    		driver.quit();
+    	}
+    }
+}

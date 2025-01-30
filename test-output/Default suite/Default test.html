@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 27 18:02:17 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>688 seconds (688225 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testrunners.TestRunner_PositiveFlow.run_cukes()'><b>run_cukes</b><br>Test class: testrunners.TestRunner_PositiveFlow<br>Test method: Runs Cucumber Features<br/>
+<a href="#Output-544966217" onClick='toggleBox("Output-544966217", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-544966217" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-544966217">
+<div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;features&#x2F;SurgeAceFirstPositiveFlow.feature</div><br/>
+<div "feature">Feature: SurgeAceFirstPositiveFlow</div><br/>
+<div "scenario">Scenario: Add Edit and Delete Student</div><br/>
+<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Students&quot; (passed : 2s)</div><br/>
+<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div><br/>
+<div "result">Then  Navigate to &quot;Students&quot; screen by clicking on the &quot;Students&quot; side menu (passed : 4s)</div><br/>
+<div "result">Then  Click on the &quot;Add Student&quot; button in the &quot;Students&quot; module (passed : 3s)</div><br/>
+<div "result">And  Add &quot;Students&quot; and save in the &quot;CreateStudent&quot; page for &quot;Scenario-AddStudent&quot; (passed : 29s)</div><br/>
+<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;StudentsList&quot; page for &quot;Scenario-SearchStudentAfterAdd&quot; (passed : 1s)</div><br/>
+<div "result">And  Edit &quot;Students&quot; and save in the &quot;EditStudent&quot; page for &quot;Scenario-EditStudent&quot; (passed : 11s)</div><br/>
+<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;StudentsList&quot; page for &quot;Scenario-SearchStudentAfterEdit&quot; (passed : 1s)</div><br/>
+<div "result">And  Delete &quot;Students&quot; and confirm in the &quot;Delete&quot; page for &quot;Scenario-DeleteStudent&quot; (passed : 3s)</div><br/>
+<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;StudentsList&quot; page for &quot;Scenario-SearchStudentForDelete&quot; (passed : 0s)</div><br/>
+<div "result">Then  Logout of the application (passed : 4s)</div><br/>
+<div "scenario">Scenario: Staff Attendance In and Out Time</div><br/>
+<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 2s)</div><br/>
+<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div><br/>
+<div "result">Then  Navigate to &quot;Staff Attendance&quot; screen by clicking on the &quot;Attendance&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Add the &quot;IN&quot; time for the staff in the &quot;StaffAttendance&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 4s)</div><br/>
+<div "result">Then  Verify the &quot;Check-In&quot; time in the grid in the &quot;StaffAttendance&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 3s)</div><br/>
+<div "result">Then  Add the &quot;OUT&quot; time for the staff in the &quot;StaffAttendance&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 3s)</div><br/>
+<div "result">Then  Verify the &quot;Check-Out&quot; time in the grid in the &quot;StaffAttendance&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 3s)</div><br/>
+<div "result">Then  Logout of the application (passed : 4s)</div><br/>
+<div "scenario">Scenario: Student Attendance Mark, Unmark and Delete</div><br/>
+<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-StudentAttendance&quot; (passed : 2s)</div><br/>
+<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div><br/>
+<div "result">Then  Navigate to &quot;Students&quot; screen by clicking on the &quot;Students&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Click on the &quot;Add Student&quot; button in the &quot;Students&quot; module (passed : 3s)</div><br/>
+<div "result">And  Add &quot;Students&quot; and save in the &quot;CreateStudent&quot; page for &quot;Scenario-AddStudent&quot; (passed : 29s)</div><br/>
+<div "result">Then  Navigate to &quot;Student Attendance&quot; screen by clicking on the &quot;Attendance&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Select the Class, Time and select the Student checkbox and click on &quot;Mark&quot; as Attend in the &quot;StudentAttendance&quot; page for &quot;Scenario-StudentAttendance&quot; (passed : 7s)</div><br/>
+<div "result">Then  Select the Class, Time and select the Student checkbox and click on &quot;Unmark&quot; as Attend in the &quot;StudentAttendance&quot; page for &quot;Scenario-StudentAttendance&quot; (passed : 7s)</div><br/>
+<div "result">Then  Select the Class, Time and select the Student checkbox and click on &quot;Delete&quot; as Attend in the &quot;StudentAttendance&quot; page for &quot;Scenario-StudentAttendance&quot; (passed : 26s)</div><br/>
+<div "result">Then  Logout of the application (passed : 4s)</div><br/>
+<div "scenario">Scenario: Add, Edit, Status Update and Delete Contract</div><br/>
+<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Contract&quot; (passed : 2s)</div><br/>
+<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div><br/>
+<div "result">Then  Navigate to &quot;Contracts&quot; screen by clicking on the &quot;Contracts&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Click on the &quot;Add Contract&quot; button in the &quot;Contract&quot; module (passed : 3s)</div><br/>
+<div "result">And  Add &quot;Contract&quot; and save in the &quot;Contract&quot; page for &quot;Scenario-AddContract&quot; (passed : 1s)</div><br/>
+<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;ContractList&quot; page for &quot;Scenario-SearchContractAfterAdd&quot; (passed : 1s)</div><br/>
+<div "result">And  Edit &quot;Contract&quot; and save in the &quot;Contract&quot; page for &quot;Scenario-EditContract&quot; (passed : 6s)</div><br/>
+<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;ContractList&quot; page for &quot;Scenario-SearchContractAfterEdit&quot; (passed : 1s)</div><br/>
+<div "result">Then  Verify the edited detail in the &quot;ContractList&quot; page for &quot;Scenario-SearchContractAfterEdit&quot; (passed : 0s)</div><br/>
+<div "result">And  Status Update &quot;Contract&quot; and save in the &quot;Contract&quot; page for &quot;Scenario-StatusUpdateContract&quot; (passed : 1s)</div><br/>
+<div "result">And  Delete &quot;Contract&quot; and confirm in the &quot;Contract&quot; page for &quot;Scenario-DeleteContract&quot; (passed : 6s)</div><br/>
+<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;ContractList&quot; page for &quot;Scenario-SearchContractAfterDelete&quot; (passed : 2s)</div><br/>
+<div "result">Then  Logout of the application (passed : 4s)</div><br/>
+<div "scenario">Scenario: Add, Edit and Delete Certification</div><br/>
+<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Certification&quot; (passed : 2s)</div><br/>
+<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div><br/>
+<div "result">Then  Navigate to &quot;Certifications&quot; screen by clicking on the &quot;Certification&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Click on the &quot;Create&quot; button in the &quot;Certification&quot; module (passed : 3s)</div><br/>
+<div "result">And  Add &quot;Certificate&quot; and save in the &quot;Certification&quot; page for &quot;Scenario-AddCertification&quot; (passed : 10s)</div><br/>
+<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;CertificationList&quot; page for &quot;Scenario-SearchCertificationAfterAdd&quot; (passed : 2s)</div><br/>
+<div "result">And  Edit &quot;Certificate&quot; and save in the &quot;Certification&quot; page for &quot;Scenario-EditCertification&quot; (passed : 5s)</div><br/>
+<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;CertificationList&quot; page for &quot;Scenario-SearchCertificationAfterEdit&quot; (passed : 2s)</div><br/>
+<div "result">Then  Verify the edited detail in the &quot;CertificationList&quot; page for &quot;Scenario-SearchCertificationAfterEdit&quot; (passed : 0s)</div><br/>
+<div "result">And  Delete &quot;Certificate&quot; and confirm in the &quot;Certification&quot; page for &quot;Scenario-DeleteCertification&quot; (passed : 6s)</div><br/>
+<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;CertificationList&quot; page for &quot;Scenario-SearchCertificationAfterDelete&quot; (passed : 2s)</div><br/>
+<div "result">Then  Logout of the application (passed : 4s)</div><br/>
+<div "scenario">Scenario: Add and Delete Batch</div><br/>
+<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Batches&quot; (passed : 2s)</div><br/>
+<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div><br/>
+<div "result">Then  Navigate to &quot;Batches&quot; screen by clicking on the &quot;Batches&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Click on the &quot;Add Batch&quot; button in the &quot;Batches&quot; module (passed : 3s)</div><br/>
+<div "result">And  Add &quot;Batch&quot; and save in the &quot;Batches&quot; page for &quot;Scenario-AddBatch&quot; (passed : 4s)</div><br/>
+<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;BatchesList&quot; page for &quot;Scenario-SearchBatchAfterAdd&quot; (passed : 2s)</div><br/>
+<div "result">And  Delete &quot;Batch&quot; and confirm in the &quot;Batches&quot; page for &quot;Scenario-DeleteBatch&quot; (passed : 7s)</div><br/>
+<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;BatchesList&quot; page for &quot;Scenario-SearchBatchAfterDelete&quot; (passed : 0s)</div><br/>
+<div "result">Then  Logout of the application (passed : 4s)</div><br/>
+<div "scenario">Scenario: Add and Register Events</div><br/>
+<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Events&quot; (passed : 2s)</div><br/>
+<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div><br/>
+<div "result">Then  Navigate to &quot;Students&quot; screen by clicking on the &quot;Students&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Click on the &quot;Add Student&quot; button in the &quot;Students&quot; module (passed : 3s)</div><br/>
+<div "result">And  Add &quot;Students&quot; and save in the &quot;CreateStudent&quot; page for &quot;Scenario-AddStudent&quot; (passed : 29s)</div><br/>
+<div "result">Then  Navigate to &quot;Events&quot; screen by clicking on the &quot;Events&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Click on the &quot;Add Event&quot; button in the &quot;Events&quot; module (passed : 3s)</div><br/>
+<div "result">And  Add &quot;Event&quot; and save in the &quot;Events&quot; page for &quot;Scenario-AddEvent&quot; (passed : 5s)</div><br/>
+<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;EventsList&quot; page for &quot;Scenario-SearchEventAfterAdd&quot; (passed : 3s)</div><br/>
+<div "result">And  Edit &quot;RegisterEventForCurrentStudent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-RegisterEventForCurrentStudent&quot; (passed : 9s)</div><br/>
+<div "result">And  Edit &quot;RegisterEventForGuestStudent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-RegisterEventForGuestStudent&quot; (passed : 25s)</div><br/>
+<div "result">And  Edit &quot;CreateGroupForEvent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-CreateGroupForEvent&quot; (passed : 2s)</div><br/>
+<div "result">And  Edit &quot;EditGroupForEvent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-EditGroupForEvent&quot; (passed : 6s)</div><br/>
+<div "result">And  Edit &quot;NotifyForEvent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-NotifyForEvent&quot; (passed : 16s)</div><br/>
+<div "result">Then  Logout of the application (passed : 4s)</div><br/>
+<div "scenario">Scenario: Add and Edit Roles, Add and Edit Users</div><br/>
+<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-PermissionsAndUsers&quot; (passed : 2s)</div><br/>
+<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div><br/>
+<div "result">Then  Navigate to &quot;Roles Permissions&quot; screen by clicking on the &quot;Users Management&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Click on the &quot;Add Role&quot; button in the &quot;Roles&quot; module (passed : 3s)</div><br/>
+<div "result">And  Add &quot;Role&quot; and save in the &quot;Permissions&quot; page for &quot;Scenario-AddRole&quot; (passed : 1s)</div><br/>
+<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;Permissions&quot; page for &quot;Scenario-SearchRoleAfterAdd&quot; (passed : 1s)</div><br/>
+<div "result">And  Edit &quot;Role&quot; and save in the &quot;Permissions&quot; page for &quot;Scenario-EditRole&quot; (passed : 3s)</div><br/>
+<div "result">Then  Navigate to &quot;Users List&quot; screen by clicking on the &quot;Users Management&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Click on the &quot;Add User&quot; button in the &quot;Users&quot; module (passed : 3s)</div><br/>
+<div "result">And  Add &quot;User&quot; and save in the &quot;Users&quot; page for &quot;Scenario-AddUser&quot; (passed : 5s)</div><br/>
+<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;Users&quot; page for &quot;Scenario-SearchUserAfterAdd&quot; (passed : 1s)</div><br/>
+<div "result">And  Edit &quot;User&quot; and save in the &quot;Users&quot; page for &quot;Scenario-EditUser&quot; (passed : 2s)</div><br/>
+<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;Users&quot; page for &quot;Scenario-SearchUserAfterEdit&quot; (passed : 1s)</div><br/>
+<div "result">Then  Verify the edited detail in the &quot;Users&quot; page for &quot;Scenario-SearchUserAfterEdit&quot; (passed : 0s)</div><br/>
+<div "result">Then  Logout of the application (passed : 4s)</div><br/>
+<div "scenario">Scenario: Add, Edit and Delete Email Templates</div><br/>
+<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-EmailTemplates&quot; (passed : 2s)</div><br/>
+<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div><br/>
+<div "result">Then  Navigate to &quot;Email Templates&quot; screen by clicking on the &quot;Email Templates&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Click on the &quot;Add Email Template&quot; button in the &quot;Email Templates&quot; module (passed : 3s)</div><br/>
+<div "result">And  Add &quot;Email Template&quot; and save in the &quot;EmailTemplates&quot; page for &quot;Scenario-AddEmailTemplate&quot; (passed : 1s)</div><br/>
+<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;EmailTemplates&quot; page for &quot;Scenario-SearchEmailTemplateAfterAdd&quot; (passed : 1s)</div><br/>
+<div "result">And  Edit &quot;Email Template&quot; and save in the &quot;EmailTemplates&quot; page for &quot;Scenario-EditEmailTemplate&quot; (passed : 3s)</div><br/>
+<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;EmailTemplates&quot; page for &quot;Scenario-SearchEmailTemplateAfterEdit&quot; (passed : 1s)</div><br/>
+<div "result">Then  Verify the edited detail in the &quot;EmailTemplates&quot; page for &quot;Scenario-SearchEmailTemplateAfterEdit&quot; (passed : 0s)</div><br/>
+<div "result">And  Delete &quot;Email Template&quot; and confirm in the &quot;EmailTemplates&quot; page for &quot;Scenario-DeleteEmailTemplate&quot; (passed : 6s)</div><br/>
+<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;EmailTemplates&quot; page for &quot;Scenario-SearchEmailTemplateAfterDelete&quot; (passed : 2s)</div><br/>
+<div "result">Then  Logout of the application (passed : 4s)</div><br/>
+<div "scenario">Scenario: Promote Students to next level</div><br/>
+<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-BeltLevelTesting&quot; (passed : 2s)</div><br/>
+<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div><br/>
+<div "result">Then  Navigate to &quot;Students&quot; screen by clicking on the &quot;Students&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Click on the &quot;Add Student&quot; button in the &quot;Students&quot; module (passed : 3s)</div><br/>
+<div "result">And  Add &quot;Students&quot; and save in the &quot;CreateStudent&quot; page for &quot;Scenario-AddStudent&quot; (passed : 29s)</div><br/>
+<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;StudentsList&quot; page for &quot;Scenario-SearchStudentAfterAdd&quot; (passed : 1s)</div><br/>
+<div "result">And  Edit &quot;StudentToPromote&quot; and save in the &quot;EditStudent&quot; page for &quot;Scenario-EditStudentToPromote&quot; (passed : 11s)</div><br/>
+<div "result">Then  Navigate to &quot;Belt Testing&quot; screen by clicking on the &quot;Level Testing&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;BeltLevelTesting&quot; page for &quot;Scenario-SearchStudentInBeltLevelAfterApprove&quot; (passed : 3s)</div><br/>
+<div "result">Then  Click on the &quot;Promote&quot; button in the &quot;Belt Testing&quot; module (passed : 9s)</div><br/>
+<div "result">Then  Search if the &quot;promoted&quot; record is displayed in the &quot;BeltLevelTesting&quot; page for &quot;Scenario-SearchStudentInBeltLevelAfterPromote&quot; (passed : 1s)</div><br/>
+<div "result">Then  Logout of the application (passed : 4s)</div><br/>
+<div "scenario">Scenario: Add and Edit Rank Sets</div><br/>
+<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-RankSets&quot; (passed : 2s)</div><br/>
+<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div><br/>
+<div "result">Then  Navigate to &quot;Rank Sets&quot; screen by clicking on the &quot;Ranks&quot; side menu (passed : 3s)</div><br/>
+<div "result">Then  Click on the &quot;Add New Record&quot; button in the &quot;Ranks&quot; module (passed : 1s)</div><br/>
+<div "result">And  Add &quot;Belt&quot; and save in the &quot;RankSet&quot; page for &quot;Scenario-AddBeltForRankSet&quot; (passed : 7s)</div><br/>
+<div "result">Then  Click on the &quot;Sort Order Column&quot; button in the &quot;Ranks&quot; module (passed : 10s)</div><br/>
+<div "result">And  Edit &quot;Belt&quot; and save in the &quot;RankSet&quot; page for &quot;Scenario-EditBeltForRankSet&quot; (passed : 2s)</div><br/>
+<div "result">Then  Verify the edited detail in the &quot;RankSet&quot; page for &quot;Scenario-VerifyBeltAfterEdit&quot; (passed : 20s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>688</td>
+<td>testrunners.TestRunner_PositiveFlow@2cbb3d47</td></tr>
+</table><p>
+</body>
+</html>

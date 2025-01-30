@@ -1,0 +1,20 @@
+@Background
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  @InquiryAddEditDelete
+  Scenario: Title of your scenario
+    Given Login to the application with username and password
+    Then Navigate to the "Inquiry" tab by clicking on the "Students" side menu
+    Then Click on the "Add Inquiry" button
+    Then Add Inquiry and save
+    Then Verify if the added Inquiry is displayed in the Inquiry List
+    
+    
+
+  @EditInquiry
+  Scenario Outline: Title of your scenario outline
+    Given I want to write a step with <name>
+  
+  @DeleteInquiry
+  Scenario: Title of your scenario

@@ -1,0 +1,125 @@
+package stepdefinition;
+
+
+package com.cbg.framework.cucumber.stepdefinition;
+
+import org.testng.Assert;
+import org.testng.ITestContext;
+import org.testng.ITestResult;
+import org.testng.Reporter;
+import org.testng.SkipException;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import pageobjectmanager.PageObjectManager;
+import pages.Page;
+import utils.AbstractSteps;
+import utils.ExcelReadWrite;
+import utils.Util;
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
+import cucumber.api.java.AfterStep;
+import cucumber.api.java.Before;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.Scenario;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class StepDefinition_FPROne_Regression extends AbstractSteps {
+	
+	PageObjectManager pageObjectManager;
+	public ExcelReadWrite excel;
+	public Map<String, String> dataMap;
+	Util ui;
+	Page pg;
+	
+	public StepDefinition_FPROne_Regression() throws Exception {
+		super();
+		ui = new Util();
+		excel = new ExcelReadWrite();
+		//pageObjectManager = new PageObjectManager(getDriver());
+		System.out.println(driver.get());
+		//pageObjectManager = new PageObjectManager(driver.get());
+		//pageObjectManager = new PageObjectManager(driver);
+	}
+	
+	@Before
+	public void setup() throws Exception{
+			//WebDriverManager.edgedriver().setup();
+			startDriver();
+			excel = new ExcelReadWrite(System.getProperty("user.dir")+"\\src\\test\\resources\\data\\FPROne_RegressionDS.xlsx");
+			pageObjectManager = new PageObjectManager(driver.get());
+	}
+	
+	@Given("Login with the username and password in the \"(.*)\" page for \"(.*)\"")
+	public void loginApp(String pageName, String scenarioName) throws Exception{
+		dataMap = excel.getRowData(pageName, "ScenarioName", scenarioName);
+		pageObjectManager.getLoginPage().login(dataMap);
+	}
+	
+	@Then("Validate if the home screen is loaded")
+	public void homeScreen() throws Exception{
+		pageObjectManager.getLoginPage().homeScreenDisplay();
+	}
+	
+	// Navigate to "Manage Field Rule" screen in "Setup" as "Admin" by selecting "Platform"
+	@Then("Navigate to \"(.*)\" screen in \"(.*)\" as \"(.*)\" by selecting workspace as \"(.*)\"")
+	public void navigateToSideMenu(String screen, String menu, String userRole, String workspace) throws Exception{
+		pageObjectManager.getLoginPage().navigate(screen, menu, userRole, workspace);
+	}
+		
+	@Then("Add Field Rule with the data in the \"(.*)\" page for \"(.*)\"")
+	public void addFieldRule(String pageName, String scenarioName) throws Exception{
+		dataMap = excel.getRowData(pageName, "ScenarioName", scenarioName);
+		pageObjectManager.getFieldRulePage().addFR(dataMap);
+	}
+	@Then("Add a single case in the \"([^\"]*)\" page for \"([^\"]*)\"")
+	public void addCase(String pageName, String scenarioName) throws Exception{
+		dataMap = excel.getRowData(pageName, "ScenarioName", scenarioName);
+		pageObjectManager.getManageCasesPage().addSingleCase(dataMap);
+	}
+	@Then("Logout of the application")
+	public void logOut() throws Exception{
+		pageObjectManager.getLoginPage().logOutApp();
+	}
+	
+	@Then("Driver close and quit")
+	public void driverExit() throws Exception{
+		pageObjectManager.getLoginPage().driverCloseQuit();
+	}
+	
+	
+	/*@AfterStep
+	public void addScreenshot(Scenario scenario) throws IOException {
+		
+		if(scenario.isFailed()) {
+		  File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		  byte[] fileContent = FileUtils.readFileToByteArray(screenshot);
+		  scenario.embed(fileContent, "image/png");
+		  //scenrio.attach(fileContent, "image/png", "screenshot");
+		}
+		 // File sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		 // File destinationPath = new File(System.getProperty("user.dir") + "/AutomationReports/Screenshots/Img_"+System.currentTimeMillis()+".png");
+		 // Files.copy(sourcePath, destinationPath);   
+		//  Reporter.addScreenCaptureFromPath(destinationPath.toString());
+		
+	}*/
+	
+	/***********************************************************************************************/
+
+
+}

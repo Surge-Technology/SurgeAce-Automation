@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;features&#x2F;SurgeAceFirstPositiveFlow.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: SurgeAceFirstPositiveFlow</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Add Edit and Delete Student</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Students&quot; (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Students&quot; screen by clicking on the &quot;Students&quot; side menu (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Add Student&quot; button in the &quot;Students&quot; module (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Add &quot;Students&quot; and save in the &quot;CreateStudent&quot; page for &quot;Scenario-AddStudent&quot; (passed : 34s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;StudentsList&quot; page for &quot;Scenario-SearchStudentAfterAdd&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;Students&quot; and save in the &quot;EditStudent&quot; page for &quot;Scenario-EditStudent&quot; (failed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;StudentsList&quot; page for &quot;Scenario-SearchStudentAfterEdit&quot; (skipped)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Delete &quot;Students&quot; and confirm in the &quot;Delete&quot; page for &quot;Scenario-DeleteStudent&quot; (skipped)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;StudentsList&quot; page for &quot;Scenario-SearchStudentForDelete&quot; (skipped)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Logout of the application (skipped)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Staff Attendance In and Out Time</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Staff Attendance&quot; screen by clicking on the &quot;Attendance&quot; side menu (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Add the &quot;IN&quot; time for the staff in the &quot;StaffAttendance&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Verify the &quot;Check-In&quot; time in the grid in the &quot;StaffAttendance&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Add the &quot;OUT&quot; time for the staff in the &quot;StaffAttendance&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Verify the &quot;Check-Out&quot; time in the grid in the &quot;StaffAttendance&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Student Attendance Mark, Unmark and Delete</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-StudentAttendance&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Students&quot; screen by clicking on the &quot;Students&quot; side menu (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Add Student&quot; button in the &quot;Students&quot; module (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Add &quot;Students&quot; and save in the &quot;CreateStudent&quot; page for &quot;Scenario-AddStudent&quot; (passed : 31s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Student Attendance&quot; screen by clicking on the &quot;Attendance&quot; side menu (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Select the Class, Time and select the Student checkbox and click on &quot;Mark&quot; as Attend in the &quot;StudentAttendance&quot; page for &quot;Scenario-StudentAttendance&quot; (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Select the Class, Time and select the Student checkbox and click on &quot;Unmark&quot; as Attend in the &quot;StudentAttendance&quot; page for &quot;Scenario-StudentAttendance&quot; (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Select the Class, Time and select the Student checkbox and click on &quot;Delete&quot; as Attend in the &quot;StudentAttendance&quot; page for &quot;Scenario-StudentAttendance&quot; (failed : 11s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Logout of the application (skipped)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Add, Edit, Status Update and Delete Contract</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Contract&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Contracts&quot; screen by clicking on the &quot;Contracts&quot; side menu (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Add Contract&quot; button in the &quot;Contract&quot; module (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Add &quot;Contract&quot; and save in the &quot;Contract&quot; page for &quot;Scenario-AddContract&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;ContractList&quot; page for &quot;Scenario-SearchContractAfterAdd&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;Contract&quot; and save in the &quot;Contract&quot; page for &quot;Scenario-EditContract&quot; (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;ContractList&quot; page for &quot;Scenario-SearchContractAfterEdit&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Verify the edited detail in the &quot;ContractList&quot; page for &quot;Scenario-SearchContractAfterEdit&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Status Update &quot;Contract&quot; and save in the &quot;Contract&quot; page for &quot;Scenario-StatusUpdateContract&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Delete &quot;Contract&quot; and confirm in the &quot;Contract&quot; page for &quot;Scenario-DeleteContract&quot; (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;ContractList&quot; page for &quot;Scenario-SearchContractAfterDelete&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Add, Edit and Delete Certification</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Certification&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Certifications&quot; screen by clicking on the &quot;Certification&quot; side menu (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Create&quot; button in the &quot;Certification&quot; module (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Add &quot;Certificate&quot; and save in the &quot;Certification&quot; page for &quot;Scenario-AddCertification&quot; (passed : 11s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;CertificationList&quot; page for &quot;Scenario-SearchCertificationAfterAdd&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;Certificate&quot; and save in the &quot;Certification&quot; page for &quot;Scenario-EditCertification&quot; (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;CertificationList&quot; page for &quot;Scenario-SearchCertificationAfterEdit&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Verify the edited detail in the &quot;CertificationList&quot; page for &quot;Scenario-SearchCertificationAfterEdit&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Delete &quot;Certificate&quot; and confirm in the &quot;Certification&quot; page for &quot;Scenario-DeleteCertification&quot; (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;CertificationList&quot; page for &quot;Scenario-SearchCertificationAfterDelete&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Add and Delete Batch</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Batches&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Batches&quot; screen by clicking on the &quot;Batches&quot; side menu (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Add Batch&quot; button in the &quot;Batches&quot; module (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Add &quot;Batch&quot; and save in the &quot;Batches&quot; page for &quot;Scenario-AddBatch&quot; (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;BatchesList&quot; page for &quot;Scenario-SearchBatchAfterAdd&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Delete &quot;Batch&quot; and confirm in the &quot;Batches&quot; page for &quot;Scenario-DeleteBatch&quot; (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;BatchesList&quot; page for &quot;Scenario-SearchBatchAfterDelete&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Add and Register Events</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Events&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Students&quot; screen by clicking on the &quot;Students&quot; side menu (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Add Student&quot; button in the &quot;Students&quot; module (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Add &quot;Students&quot; and save in the &quot;CreateStudent&quot; page for &quot;Scenario-AddStudent&quot; (passed : 31s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Events&quot; screen by clicking on the &quot;Events&quot; side menu (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Add Event&quot; button in the &quot;Events&quot; module (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Add &quot;Event&quot; and save in the &quot;Events&quot; page for &quot;Scenario-AddEvent&quot; (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;EventsList&quot; page for &quot;Scenario-SearchEventAfterAdd&quot; (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;RegisterEventForCurrentStudent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-RegisterEventForCurrentStudent&quot; (passed : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;RegisterEventForGuestStudent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-RegisterEventForGuestStudent&quot; (passed : 32s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;CreateGroupForEvent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-CreateGroupForEvent&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;EditGroupForEvent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-EditGroupForEvent&quot; (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;NotifyForEvent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-NotifyForEvent&quot; (passed : 17s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Add and Edit Roles, Add and Edit Users</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-PermissionsAndUsers&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Roles Permissions&quot; screen by clicking on the &quot;Users Management&quot; side menu (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Add Role&quot; button in the &quot;Roles&quot; module (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Add &quot;Role&quot; and save in the &quot;Permissions&quot; page for &quot;Scenario-AddRole&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;Permissions&quot; page for &quot;Scenario-SearchRoleAfterAdd&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;Role&quot; and save in the &quot;Permissions&quot; page for &quot;Scenario-EditRole&quot; (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Users List&quot; screen by clicking on the &quot;Users Management&quot; side menu (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Add User&quot; button in the &quot;Users&quot; module (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Add &quot;User&quot; and save in the &quot;Users&quot; page for &quot;Scenario-AddUser&quot; (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;Users&quot; page for &quot;Scenario-SearchUserAfterAdd&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;User&quot; and save in the &quot;Users&quot; page for &quot;Scenario-EditUser&quot; (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;Users&quot; page for &quot;Scenario-SearchUserAfterEdit&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Verify the edited detail in the &quot;Users&quot; page for &quot;Scenario-SearchUserAfterEdit&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Add, Edit and Delete Email Templates</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-EmailTemplates&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Email Templates&quot; screen by clicking on the &quot;Email Templates&quot; side menu (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Add Email Template&quot; button in the &quot;Email Templates&quot; module (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Add &quot;Email Template&quot; and save in the &quot;EmailTemplates&quot; page for &quot;Scenario-AddEmailTemplate&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;EmailTemplates&quot; page for &quot;Scenario-SearchEmailTemplateAfterAdd&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;Email Template&quot; and save in the &quot;EmailTemplates&quot; page for &quot;Scenario-EditEmailTemplate&quot; (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;EmailTemplates&quot; page for &quot;Scenario-SearchEmailTemplateAfterEdit&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Verify the edited detail in the &quot;EmailTemplates&quot; page for &quot;Scenario-SearchEmailTemplateAfterEdit&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Delete &quot;Email Template&quot; and confirm in the &quot;EmailTemplates&quot; page for &quot;Scenario-DeleteEmailTemplate&quot; (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;EmailTemplates&quot; page for &quot;Scenario-SearchEmailTemplateAfterDelete&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Promote Students to next level</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-BeltLevelTesting&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Students&quot; screen by clicking on the &quot;Students&quot; side menu (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Add Student&quot; button in the &quot;Students&quot; module (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Add &quot;Students&quot; and save in the &quot;CreateStudent&quot; page for &quot;Scenario-AddStudent&quot; (passed : 31s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;StudentsList&quot; page for &quot;Scenario-SearchStudentAfterAdd&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;StudentToPromote&quot; and save in the &quot;EditStudent&quot; page for &quot;Scenario-EditStudentToPromote&quot; (passed : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Belt Testing&quot; screen by clicking on the &quot;Level Testing&quot; side menu (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;BeltLevelTesting&quot; page for &quot;Scenario-SearchStudentInBeltLevelAfterApprove&quot; (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Promote&quot; button in the &quot;Belt Testing&quot; module (passed : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Search if the &quot;promoted&quot; record is displayed in the &quot;BeltLevelTesting&quot; page for &quot;Scenario-SearchStudentInBeltLevelAfterPromote&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Add and Edit Rank Sets</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-RankSets&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Navigate to &quot;Rank Sets&quot; screen by clicking on the &quot;Ranks&quot; side menu (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Add New Record&quot; button in the &quot;Ranks&quot; module (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Add &quot;Belt&quot; and save in the &quot;RankSet&quot; page for &quot;Scenario-AddBeltForRankSet&quot; (passed : 8s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on the &quot;Sort Order Column&quot; button in the &quot;Ranks&quot; module (passed : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Edit &quot;Belt&quot; and save in the &quot;RankSet&quot; page for &quot;Scenario-EditBeltForRankSet&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Verify the edited detail in the &quot;RankSet&quot; page for &quot;Scenario-VerifyBeltAfterEdit&quot; (passed : 20s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="SurgeAceFirst" duration-ms="714578" started-at="2025-01-29T10:15:04 IST" finished-at="2025-01-29T10:26:58 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:testrunners.TestRunner_PositiveFlow@2cbb3d47]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="PositiveFlow" duration-ms="714578" started-at="2025-01-29T10:15:04 IST" finished-at="2025-01-29T10:26:58 IST">
+      <class name="testrunners.TestRunner_PositiveFlow">
+        <test-method status="SKIP" signature="run_cukes()[pri:0, instance:testrunners.TestRunner_PositiveFlow@2cbb3d47]" name="run_cukes" duration-ms="714497" started-at="2025-01-29T10:15:04 IST" description="Runs Cucumber Features" finished-at="2025-01-29T10:26:58 IST">
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(text(),'Sub Levels')]//..//..//input"}
+  (Session info: MicrosoftEdge=132.0.2957.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STS-CHN-011', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.115, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55009}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\HARIPR~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2a20545f24a611c5a8a83bffd0f87aa
+*** Element info: {Using=xpath, value=//label[contains(text(),'Sub Levels')]//..//..//input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(text(),'Sub Levels')]//..//..//input"}
+  (Session info: MicrosoftEdge=132.0.2957.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STS-CHN-011', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.115, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55009}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\HARIPR~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2a20545f24a611c5a8a83bffd0f87aa
+*** Element info: {Using=xpath, value=//label[contains(text(),'Sub Levels')]//..//..//input}
+at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:48)
+at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:239)
+at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
+at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:253)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:594)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(text(),'Sub Levels')]//..//..//input"}
+  (Session info: MicrosoftEdge=132.0.2957.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STS-CHN-011', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.115, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55009}, msedge: {msedgedriverVersion: 132.0.2957.127 (cbce079b96b..., userDataDir: C:\Users\HARIPR~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b2a20545f24a611c5a8a83bffd0f87aa
+*** Element info: {Using=xpath, value=//label[contains(text(),'Sub Levels')]//..//..//input}
+at org.testng.Assert.fail(Assert.java:99)
+at pages.Page.addStepsWithScreenshotInReport(Page.java:267)
+at pages.Page.softAssertEquals(Page.java:205)
+at pages.StudentsPage.editStudent(StudentsPage.java:420)
+at stepdefinition.StepDefinition.editScenario(StepDefinition.java:159)
+at ✽.And Edit "Students" and save in the "EditStudent" page for "Scenario-EditStudent"(src/test/resources/features/SurgeAceFirstPositiveFlow.feature:40)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;features&#x2F;SurgeAceFirstPositiveFlow.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: SurgeAceFirstPositiveFlow</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Add Edit and Delete Student</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Students&quot; (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Students&quot; screen by clicking on the &quot;Students&quot; side menu (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Add Student&quot; button in the &quot;Students&quot; module (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Add &quot;Students&quot; and save in the &quot;CreateStudent&quot; page for &quot;Scenario-AddStudent&quot; (passed : 34s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;StudentsList&quot; page for &quot;Scenario-SearchStudentAfterAdd&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;Students&quot; and save in the &quot;EditStudent&quot; page for &quot;Scenario-EditStudent&quot; (failed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;StudentsList&quot; page for &quot;Scenario-SearchStudentAfterEdit&quot; (skipped)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Delete &quot;Students&quot; and confirm in the &quot;Delete&quot; page for &quot;Scenario-DeleteStudent&quot; (skipped)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;StudentsList&quot; page for &quot;Scenario-SearchStudentForDelete&quot; (skipped)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Logout of the application (skipped)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Staff Attendance In and Out Time</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Staff Attendance&quot; screen by clicking on the &quot;Attendance&quot; side menu (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Add the &quot;IN&quot; time for the staff in the &quot;StaffAttendance&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Verify the &quot;Check-In&quot; time in the grid in the &quot;StaffAttendance&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Add the &quot;OUT&quot; time for the staff in the &quot;StaffAttendance&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Verify the &quot;Check-Out&quot; time in the grid in the &quot;StaffAttendance&quot; page for &quot;Scenario-StaffAttendance&quot; (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Student Attendance Mark, Unmark and Delete</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-StudentAttendance&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Students&quot; screen by clicking on the &quot;Students&quot; side menu (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Add Student&quot; button in the &quot;Students&quot; module (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Add &quot;Students&quot; and save in the &quot;CreateStudent&quot; page for &quot;Scenario-AddStudent&quot; (passed : 31s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Student Attendance&quot; screen by clicking on the &quot;Attendance&quot; side menu (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Select the Class, Time and select the Student checkbox and click on &quot;Mark&quot; as Attend in the &quot;StudentAttendance&quot; page for &quot;Scenario-StudentAttendance&quot; (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Select the Class, Time and select the Student checkbox and click on &quot;Unmark&quot; as Attend in the &quot;StudentAttendance&quot; page for &quot;Scenario-StudentAttendance&quot; (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Select the Class, Time and select the Student checkbox and click on &quot;Delete&quot; as Attend in the &quot;StudentAttendance&quot; page for &quot;Scenario-StudentAttendance&quot; (failed : 11s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Logout of the application (skipped)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Add, Edit, Status Update and Delete Contract</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Contract&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Contracts&quot; screen by clicking on the &quot;Contracts&quot; side menu (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Add Contract&quot; button in the &quot;Contract&quot; module (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Add &quot;Contract&quot; and save in the &quot;Contract&quot; page for &quot;Scenario-AddContract&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;ContractList&quot; page for &quot;Scenario-SearchContractAfterAdd&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;Contract&quot; and save in the &quot;Contract&quot; page for &quot;Scenario-EditContract&quot; (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;ContractList&quot; page for &quot;Scenario-SearchContractAfterEdit&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Verify the edited detail in the &quot;ContractList&quot; page for &quot;Scenario-SearchContractAfterEdit&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Status Update &quot;Contract&quot; and save in the &quot;Contract&quot; page for &quot;Scenario-StatusUpdateContract&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Delete &quot;Contract&quot; and confirm in the &quot;Contract&quot; page for &quot;Scenario-DeleteContract&quot; (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;ContractList&quot; page for &quot;Scenario-SearchContractAfterDelete&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Add, Edit and Delete Certification</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Certification&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Certifications&quot; screen by clicking on the &quot;Certification&quot; side menu (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Create&quot; button in the &quot;Certification&quot; module (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Add &quot;Certificate&quot; and save in the &quot;Certification&quot; page for &quot;Scenario-AddCertification&quot; (passed : 11s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;CertificationList&quot; page for &quot;Scenario-SearchCertificationAfterAdd&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;Certificate&quot; and save in the &quot;Certification&quot; page for &quot;Scenario-EditCertification&quot; (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;CertificationList&quot; page for &quot;Scenario-SearchCertificationAfterEdit&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Verify the edited detail in the &quot;CertificationList&quot; page for &quot;Scenario-SearchCertificationAfterEdit&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Delete &quot;Certificate&quot; and confirm in the &quot;Certification&quot; page for &quot;Scenario-DeleteCertification&quot; (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;CertificationList&quot; page for &quot;Scenario-SearchCertificationAfterDelete&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Add and Delete Batch</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Batches&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Batches&quot; screen by clicking on the &quot;Batches&quot; side menu (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Add Batch&quot; button in the &quot;Batches&quot; module (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Add &quot;Batch&quot; and save in the &quot;Batches&quot; page for &quot;Scenario-AddBatch&quot; (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;BatchesList&quot; page for &quot;Scenario-SearchBatchAfterAdd&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Delete &quot;Batch&quot; and confirm in the &quot;Batches&quot; page for &quot;Scenario-DeleteBatch&quot; (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;BatchesList&quot; page for &quot;Scenario-SearchBatchAfterDelete&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Add and Register Events</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-Events&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Students&quot; screen by clicking on the &quot;Students&quot; side menu (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Add Student&quot; button in the &quot;Students&quot; module (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Add &quot;Students&quot; and save in the &quot;CreateStudent&quot; page for &quot;Scenario-AddStudent&quot; (passed : 31s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Events&quot; screen by clicking on the &quot;Events&quot; side menu (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Add Event&quot; button in the &quot;Events&quot; module (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Add &quot;Event&quot; and save in the &quot;Events&quot; page for &quot;Scenario-AddEvent&quot; (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;EventsList&quot; page for &quot;Scenario-SearchEventAfterAdd&quot; (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;RegisterEventForCurrentStudent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-RegisterEventForCurrentStudent&quot; (passed : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;RegisterEventForGuestStudent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-RegisterEventForGuestStudent&quot; (passed : 32s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;CreateGroupForEvent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-CreateGroupForEvent&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;EditGroupForEvent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-EditGroupForEvent&quot; (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;NotifyForEvent&quot; and save in the &quot;Events&quot; page for &quot;Scenario-NotifyForEvent&quot; (passed : 17s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Add and Edit Roles, Add and Edit Users</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-PermissionsAndUsers&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Roles Permissions&quot; screen by clicking on the &quot;Users Management&quot; side menu (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Add Role&quot; button in the &quot;Roles&quot; module (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Add &quot;Role&quot; and save in the &quot;Permissions&quot; page for &quot;Scenario-AddRole&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;Permissions&quot; page for &quot;Scenario-SearchRoleAfterAdd&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;Role&quot; and save in the &quot;Permissions&quot; page for &quot;Scenario-EditRole&quot; (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Users List&quot; screen by clicking on the &quot;Users Management&quot; side menu (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Add User&quot; button in the &quot;Users&quot; module (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Add &quot;User&quot; and save in the &quot;Users&quot; page for &quot;Scenario-AddUser&quot; (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;Users&quot; page for &quot;Scenario-SearchUserAfterAdd&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;User&quot; and save in the &quot;Users&quot; page for &quot;Scenario-EditUser&quot; (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;Users&quot; page for &quot;Scenario-SearchUserAfterEdit&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Verify the edited detail in the &quot;Users&quot; page for &quot;Scenario-SearchUserAfterEdit&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Add, Edit and Delete Email Templates</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-EmailTemplates&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Email Templates&quot; screen by clicking on the &quot;Email Templates&quot; side menu (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Add Email Template&quot; button in the &quot;Email Templates&quot; module (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Add &quot;Email Template&quot; and save in the &quot;EmailTemplates&quot; page for &quot;Scenario-AddEmailTemplate&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;EmailTemplates&quot; page for &quot;Scenario-SearchEmailTemplateAfterAdd&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;Email Template&quot; and save in the &quot;EmailTemplates&quot; page for &quot;Scenario-EditEmailTemplate&quot; (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;edited&quot; record is displayed in the &quot;EmailTemplates&quot; page for &quot;Scenario-SearchEmailTemplateAfterEdit&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Verify the edited detail in the &quot;EmailTemplates&quot; page for &quot;Scenario-SearchEmailTemplateAfterEdit&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Delete &quot;Email Template&quot; and confirm in the &quot;EmailTemplates&quot; page for &quot;Scenario-DeleteEmailTemplate&quot; (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;deleted&quot; record is not displayed in the &quot;EmailTemplates&quot; page for &quot;Scenario-SearchEmailTemplateAfterDelete&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Promote Students to next level</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-BeltLevelTesting&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Students&quot; screen by clicking on the &quot;Students&quot; side menu (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Add Student&quot; button in the &quot;Students&quot; module (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Add &quot;Students&quot; and save in the &quot;CreateStudent&quot; page for &quot;Scenario-AddStudent&quot; (passed : 31s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;StudentsList&quot; page for &quot;Scenario-SearchStudentAfterAdd&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;StudentToPromote&quot; and save in the &quot;EditStudent&quot; page for &quot;Scenario-EditStudentToPromote&quot; (passed : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Belt Testing&quot; screen by clicking on the &quot;Level Testing&quot; side menu (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;added&quot; record is displayed in the &quot;BeltLevelTesting&quot; page for &quot;Scenario-SearchStudentInBeltLevelAfterApprove&quot; (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Promote&quot; button in the &quot;Belt Testing&quot; module (passed : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Search if the &quot;promoted&quot; record is displayed in the &quot;BeltLevelTesting&quot; page for &quot;Scenario-SearchStudentInBeltLevelAfterPromote&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Add and Edit Rank Sets</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Login with the username and password in the &quot;SurgeAceLogin&quot; page for &quot;Scenario-RankSets&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Validate if the home screen is loaded (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Navigate to &quot;Rank Sets&quot; screen by clicking on the &quot;Ranks&quot; side menu (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Add New Record&quot; button in the &quot;Ranks&quot; module (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Add &quot;Belt&quot; and save in the &quot;RankSet&quot; page for &quot;Scenario-AddBeltForRankSet&quot; (passed : 8s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on the &quot;Sort Order Column&quot; button in the &quot;Ranks&quot; module (passed : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Edit &quot;Belt&quot; and save in the &quot;RankSet&quot; page for &quot;Scenario-EditBeltForRankSet&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Verify the edited detail in the &quot;RankSet&quot; page for &quot;Scenario-VerifyBeltAfterEdit&quot; (passed : 20s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Logout of the application (passed : 4s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- testrunners.TestRunner_PositiveFlow -->
+    </test> <!-- PositiveFlow -->
+  </suite> <!-- SurgeAceFirst -->
+</testng-results>
